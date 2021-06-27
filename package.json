@@ -1,0 +1,20 @@
+{
+  "name": "loopstudios-landing-page-main-2",
+  "version": "1.0.0",
+  "description": "![Design preview for the Loopstudios landing page coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./src/styles/tailwind.css -o ./public/styles/build.css --watch",
+    "production": "NODE_ENV=production tailwindcss -i ./src/styles/tailwind.css -o ./public/styles/build.css",
+    "production:minify": "NODE_ENV=production tailwindcss -i ./src/styles/tailwind.css -o ./public/styles/build.css --minify"
+    },
+    
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.2.6",
+    "postcss": "^8.3.5",
+    "tailwindcss": "^2.2.4"
+  }
+}
