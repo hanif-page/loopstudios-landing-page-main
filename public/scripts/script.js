@@ -8,3 +8,8 @@ navToggle.addEventListener('click', () => {
 navClose.addEventListener('click', () => {
     navSlide.classList.toggle('-translate-x-full');
 })
+
+// generating copyright year
+const copyrightYear = document.querySelector(".copyright .yyyy")
+const currentDate = new Date()
+copyrightYear.innerHTML = currentDate.getFullYear()
